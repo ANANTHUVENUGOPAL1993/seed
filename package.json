@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon seed.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
