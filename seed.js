@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGO_URL, { useNewUrlParser: true }, (err) => {
 
 
 const seedData=[  
-    {name:"superadmin", email:"superadmin@gmail.com",password:'fnsjdnfsjkd99u9u0912'},  
+    {name:"superadmin1", email:"superadmin@gmail.com",password:'fnsjdnfsjkd99u9u0912'},  
     {name:"admin", email:"admin@gmail.com",password:'fnsjdnfsjkd99u9u0912'}  
 ] 
 

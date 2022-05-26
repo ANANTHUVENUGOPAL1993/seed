@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
 
-const seedSchema= new mongoose.Schema({
+const userSchema= new mongoose.Schema({
     name:{
         type:String,
         required:true
@@ -17,7 +17,7 @@ const seedSchema= new mongoose.Schema({
  
 })
 
-const Seed = mongoose.model('Seed',seedSchema);
+const Seed = mongoose.model('Seed',userSchema);
 
 module.exports=Seed
 
